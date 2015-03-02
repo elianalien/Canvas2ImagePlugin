@@ -99,7 +99,7 @@ public class Canvas2ImagePlugin extends CordovaPlugin {
 				folder = Environment.getExternalStorageDirectory();
 			}
 			
-			File appFolder = folder + "MemeGenerator/"
+			File appFolder = folder + "MemeGenerator/";
 			File imageFile = new File(appFolder, "Memegenerator_" + date.toString() + ".png");
 
 			FileOutputStream out = new FileOutputStream(imageFile);
